@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="A blog platform featuring tutorials on web development, including JavaScript and CSS tutorials.">
+
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#articles">Categories</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="articles">
+            <article>
+                <h2>JavaScript Tutorial</h2>
+                <img src="C:\Users\RITIK SRIVASTAVA\Desktop\Code Clause\Blog Site\JST.jpg" alt="JavaScript Tutorial"/>
+                <p>JavaScript is a powerful language used in web development. It allows developers to create dynamic web pages.</p>
+                <p>Here are some key concepts in JavaScript:</p>
+                <ul>
+                    <li><strong>Variables:</strong> Containers for storing data values.</li>
+                    <li><strong>Functions:</strong> Blocks of code designed to perform a particular task.</li>
+                </ul>
+                <p>Learning JavaScript opens up a world of possibilities in web development, from building user interfaces to developing server-side applications.</p>
+                <div class="comment-section">
+                    <h3>Comments</h3>
+                    <textarea placeholder="Add a comment..."></textarea>
+                    <button onclick="addComment('JavaScript Tutorial')">Submit</button>
+                    <div class="comments-list"></div>
+                </div>
+            </article>
+
+            <article>
+                <h2>CSS Tutorial</h2>
+                <img src="C:\Users\RITIK SRIVASTAVA\Desktop\Code Clause\Blog Site\CSS.jpg" alt="CSS Tutorial"/>
+                <p>CSS is the language we use to style a Web page..</p>
+                <p>What is CSS?</p>
+                <ul>
+                    <li>CSS stands for Cascading Style Sheets.</li>
+                    <li>CSS describes how HTML elements are to be displayed on screen.</li>
+                </ul>
+                <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+                <div class="comment-section">
+                    <h3>Comments</h3>
+                    <textarea placeholder="Add a comment..."></textarea>
+                    <button onclick="addComment('CSS Tutorial')">Submit</button>
+                    <div class="comments-list"></div>
+                </div>
+            </article>
+        </section>
+        <section id="about">
+            <h1>About Us</h1>
+
+            <h4>We're a community of passionate web developers dedicated to sharing knowledge, inspiration, and the latest trends in web development. Our goal is to empower developers of all levels to build amazing websites and applications.</h4>
+        </section>
+
+    </main>
+   
+
+    <footer>
+        <p>&copy; 2024 Ritik Srivastava Blog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
